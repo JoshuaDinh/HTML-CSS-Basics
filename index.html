@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> 26&four </title>
+<link rel="stylesheet" type="text/css" href="Main.css">
+</head>
+    <body>
+        <div class="container">
+     <header> 
+      <img src="images/logo.svg" alt="26andfour logo" class="logo">
+         <nav>
+           <a href="#" class="hide-desktop">
+            <img src="images/ham.svg" alt="toggle-menu" class="menu" id="menu">
+            </a>       
+             <ul class="show-desktop hide-mobile" id="nav">
+        <li id="exit" class="exit-btn hide-desktop"></li><img src="images/exit.svg" alt="exit-menu"></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About"</a></li>
+        <li><a href="#">Contact</a></li>
+            </ul>
+</nav>
+        </div>
+        </header>
+        <section>
+            <img src="images/server.svg" alt="server graphic" class="server">
+        <h1> Web Hosting for the modern era</h1>
+        <p1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reiciendis aut asperiores error quisquam. Aut commodi doloribus corrupti, dignissimos maxime, omnis asperiores quis ducimus, sed amet tempore aspernatur consectetur voluptates!</p1>
+       <img src=" images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+    </section>
+    </div>
+    <div class="blue-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/icon-1.svg " alt=calendar icon>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima hic architecto eos reiciendis exercitationem inventore neque expedita, dolorum laudantium veniam necessitatibus assumenda commodi quae error ut maiores quo id?</p>
+                </li>
+                <li>
+                    <img src="images/icon-2.svg " alt=calendar icon>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima hic architecto eos reiciendis exercitationem inventore neque expedita, dolorum laudantium veniam necessitatibus assumenda commodi quae error ut maiores quo id?</p>
+                </li>
+                <li>
+                    <img src="images/icon-3.svg " alt=calendar icon>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat minima hic architecto eos reiciendis exercitationem inventore neque expedita, dolorum laudantium veniam necessitatibus assumenda commodi quae error ut maiores quo id?</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+<div class="gray-container">
+    <div class="container">
+        <ul>
+            <li>
+                <figure> 
+                    <img src="images/user1.png" alt="user testimonial picture">
+                    <blockquote> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis ipsam reprehenderit odio quis cupiditate eligendi veniam pariatur sunt optio quas hic nihil, eveniet debitis ducimus libero repellendus error consequuntur? Facere.</blockquote>
+                        <figcaption> -Jane Doe</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure> 
+                    <img src="images/user2.png" alt="user testimonial picture">
+                    <blockquote> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis ipsam reprehenderit odio quis cupiditate eligendi veniam pariatur sunt optio quas hic nihil, eveniet debitis ducimus libero repellendus error consequuntur? Facere.</blockquote>
+                    <figcaption> -John Smith</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+<h2> Start your free trial now!</h2>
+<a href="#" class="cta">Get Started</a>
+</div>
+<footer>
+    <div class="footer-container">
+        <div class="container">
+            <a href="#">
+                <img src="images/logo-white.svg" class="logo alt=:logo">
+                <p class="address"> Melrose place 90210<br>USA</p>
+                <ul class="footer-links">
+                    <li><a href="#"> terms of service</a></li>
+                    <li><a href="#">Privacy Policy</A></li>
+                </ul>
+            </a>
+        </div>
+    </div>
+</footer>
+<script>
+    var menu = document.GetElementById('menu');
+    var nav = document.GetElementById('nav');
+    var exit = document.GetElementById('exit');
+   
+   menu.addEventListener('click', function(e) {
+       nav.classList.Toggle('hide-mobile');
+       e.preventDefault();
+   });
+   
+   exit.addEventListener('click', function(e) {
+       nav.classList.add('hide-mobile');
+       e.preventDefault();
+   });
+   </script>
+
+</body>
+</html>
